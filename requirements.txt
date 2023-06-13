@@ -1,0 +1,5 @@
+loguru
+psycopg2-binary
+sqlalchemy
+memory-profiler
+python-dotenv
