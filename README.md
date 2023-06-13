@@ -21,7 +21,7 @@ You can try and test the every insert method yourself. You will need to create a
 
 ## Methods
 
-The tests are done using 42000 rows csv file. I used Postgresql as database and psycopg2 to connect to postgresql from python. Corresponding python scripts can be found here. 
+The tests are done using 42000 rows csv file. I used Postgresql as database and psycopg2 to connect to postgresql from python. Corresponding python scripts can be found above. 
 
 ### Inserting One by One
 The first method involves iterating over a CSV file and inserting each row one by one. This approach is the most straightforward but can be inefficient when dealing with large datasets. For each row in the CSV file, a separate SQL INSERT statement is executed, resulting in a high number of individual queries. This method can be time-consuming and resource-intensive.
